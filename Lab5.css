@@ -1,0 +1,79 @@
+body {
+    background-color: #f2f2f2;
+    font-family: "Times New Roman", serif;
+}
+
+/* Main title */
+h1 {
+    color: blue;
+    text-decoration: underline;
+}
+
+/* Highlight first paragraph (yellow box) */
+.highlight {
+    background-color: yellow;
+    border: 2px solid black;
+    padding: 10px;
+    width: 70%;
+    margin: 10px auto;
+    font-style: italic;
+}
+
+/* Normal paragraph box */
+p {
+    border: 1px solid gray;
+    padding: 8px;
+    width: 70%;
+    margin: 10px auto;
+}
+
+/* Section heading */
+h2 {
+    color: blue;
+    border: 2px solid gray;
+    width: 70%;
+    margin: 10px auto;
+    padding: 5px;
+}
+
+/* Descendant div box */
+div {
+    border: 2px solid gray;
+    background-color: #d9d9d9;
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+}
+
+/* List styling */
+ul {
+    width: 70%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid gray;
+    list-style-type: disc;
+}
+
+/* List items */
+li {
+    border: 1px solid gray;
+    margin: 5px;
+    padding: 5px;
+}
+
+/* Image styling */
+img {
+    display: block;
+    margin: 20px auto;
+    width: 200px;
+    border: 2px solid black;
+}
+
+/* Link */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: brown;
+    text-decoration: underline;
+}
